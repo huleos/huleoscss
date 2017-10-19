@@ -1,0 +1,48 @@
+///* ========================================================================
+//   #MODAL
+//   ======================================================================== */
+
+.c-modal {
+	position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1005;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba($black, 0.45);
+  overflow-y: scroll;
+
+  &__container {
+  	position: relative;
+  	width: 100%;
+  	padding: rem(15);
+  	margin: rem(10);
+  	display: flex;
+  	flex-direction: column;
+  	background-color: $white;
+  	background-clip: padding-box;
+  	border: 1px solid rgba($black, 0.2);
+  	border-radius: calc(#{$global-radius} + 2px);
+  	outline: 0;
+  	@include breakpoint(md){
+  		max-width: rem(500);
+  		margin: rem(30) auto;
+  	}
+  }
+
+  &--open { display: flex; }
+
+  &__close {
+	  position: absolute;
+	  background: 0 0;
+	  opacity: .5;
+	  right: rem(10);
+	  top: rem(7);
+	  font-size: rem(24);
+	  font-weight: 700;
+	  line-height: 1;
+  }
+}

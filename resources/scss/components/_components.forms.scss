@@ -1,0 +1,31 @@
+///* ========================================================================
+//   #FORMS
+//   ======================================================================== */
+
+
+$input-bg: $white !default;
+$input-border-color: $gray-medium !default;
+$input-focus-border-color: $gray-dark !default;
+$input-border-radius: rem(3) !default;
+$bg-form: map-get($brand-color, secondary) !default;
+
+.c-form-input {
+	padding: rem(8) rem(12);
+	background-color: $input-bg;
+	border: 1px solid $input-border-color;
+	border-radius: $input-border-radius;
+	margin-bottom: rem(16);
+	transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+	&:focus {
+	  border-color: $input-focus-border-color;
+	}
+	&__file {
+		margin-bottom: rem(16);
+	}
+}
+
+select.c-form-input {
+  &:not([size]):not([multiple]) {
+    height: rem(38 + 2);
+  }
+}

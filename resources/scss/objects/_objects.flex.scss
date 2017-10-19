@@ -1,0 +1,38 @@
+/* ==========================================================================
+   #FLEX
+   ========================================================================== */
+
+// Flex
+.o-flex{
+  display: flex;
+  flex-flow: row wrap;
+}
+
+// Vertical Align
+$flex-justify: (
+  'left': flex-start,
+  'right': flex-end,
+  'center': center,
+  'justify': space-between,
+  'spaced': space-around,
+);
+
+@each $vdir, $prop in $flex-justify{
+  .o-flex--#{$vdir}{
+    justify-content: #{$prop};
+  }
+}
+
+// Horizontal
+$flex-align: (
+  'top': flex-start,
+  'bottom': flex-end,
+  'middle': center,
+  'stretch': stretch,
+);
+
+@each $hdir, $prop in $flex-align{
+  .o-flex--#{$hdir}{
+    align-items: #{$prop};
+  }
+}

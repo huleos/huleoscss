@@ -1,0 +1,49 @@
+Title: Embed
+
+----
+
+Text: 
+
+<div class="o-embed o-embed--16x9">
+  <iframe class="o-embed__item" src="https://www.youtube.com/embed/5fOqdNnX4nQ" allowfullscreen></iframe> 
+</div>
+
+```html
+<div class="o-embed o-embed--16x9">
+  <iframe class="o-embed__item" src="..." allowfullscreen></iframe> 
+</div>
+```
+#### Aspect ratios
+```html
+<!-- 1:1 aspect ratio -->
+<div class="o-embed o-embed--square">
+  <iframe class="o-embed__item" src="..."></iframe> 
+</div>
+
+<!-- 4:3 aspect ratio -->
+<div class="o-embed o-embed--4x3">
+  <iframe class="o-embed__item" src="..."></iframe> 
+</div>
+
+<!-- 16:9 aspect ratio -->
+<div class="o-embed o-embed--16x9">
+  <iframe class="o-embed__item" src="..."></iframe> 
+</div>
+
+<!-- 3:1 aspect ratio -->
+<div class="o-embed o-embed--3x1">
+  <iframe class="o-embed__item" src="..."></iframe> 
+</div>
+```
+
+----
+
+Metatag: 
+
+----
+
+Meta-title: 
+
+----
+
+Meta-description: 

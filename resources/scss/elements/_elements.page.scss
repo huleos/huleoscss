@@ -1,0 +1,40 @@
+/* ==========================================================================
+   #PAGE
+   ========================================================================== */
+
+// Variables
+$global-line-height:  1.5 !default;
+$global-font-weight: normal  !default;
+$global-text-color: $black !default;
+$body-font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif !default;
+$body-bg: $white !default;
+
+
+html {
+  font-size: 100%;
+  overflow-y: scroll;
+  min-height: 100%;
+}
+
+body{
+  font-family: $body-font-family;
+  font-weight: $global-font-weight;
+  line-height: $global-line-height;
+  color: $global-text-color;
+  background-color: $body-bg;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+p {
+  margin-bottom: rem(16);
+}
+
+hr {
+  clear: both;
+  margin: rem(15) auto;
+  width: 100%;
+  border: 0;
+  border-top: 1px solid $gray-medium;
+}
+

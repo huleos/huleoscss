@@ -1,0 +1,40 @@
+/* ==========================================================================
+   #CONTAINERS
+   ========================================================================== */
+
+@mixin gutter($padding) {
+  padding-left: rem($padding);
+  padding-right: rem($padding);
+}
+
+@mixin margin-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.o-container{
+  width: 100%;
+  max-width: rem(1140);
+  position: relative;
+  @include margin-auto;
+  @include gutter(15);
+  &--full {
+    position: relative;
+    width: 100%;
+    @include gutter(15);
+  }
+  &--md {
+    position: relative;
+    width: 100%;
+    max-width: rem(800);
+    @include margin-auto;
+    @include gutter(15);
+  }
+  &--sm {
+    position: relative;
+    width: 100%;
+    max-width: rem(680);
+    @include margin-auto;
+    @include gutter(15);
+  }
+}

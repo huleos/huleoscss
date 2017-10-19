@@ -1,0 +1,85 @@
+///* ========================================================================
+//   #FORMS
+//   ======================================================================== */
+
+$input-font-family: $body-font-family !default;
+
+fieldset {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+legend {
+  max-width: 100%;
+}
+
+label{
+  display: inline-block;
+  margin-bottom: rem(6);
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: $input-font-family;
+}
+
+input[type='search'],
+input[type=text],
+input[type=url],
+input[type=email],
+input[type=password],
+input[type=number],
+textarea {
+  display: block;
+  width: 100%;
+  font-family: inherit;
+  vertical-align: middle;
+  outline: none;
+  line-height: 1.5;
+  &:focus{
+    outline: none;
+  }
+}
+
+input[type="file"] {
+  display: block;
+}
+
+button,
+input[type=button],
+input[type=reset],
+input[type=submit]{
+  border: none;
+  appearance: none;
+  outline: none;
+  cursor: pointer;
+}
+
+button[disabled],
+input[disabled] {
+  cursor: default;
+}
+
+textarea {
+  display: block;
+  overflow: auto;
+  max-width: 100%;
+}
+
+select {
+  display: block;
+  width: 100%;
+  line-height: normal;
+  outline: none;
+  &:focus{
+    outline: none;
+  }
+}
+
+select[multiple] {
+  height: auto;
+}

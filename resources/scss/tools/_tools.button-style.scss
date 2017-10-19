@@ -1,0 +1,13 @@
+///* ========================================================================
+//   #BUTTON-STYLE
+//   ======================================================================== */
+
+@mixin button-style($color, $background) {
+	color: $color;
+	background-color: $background;
+	&:hover,
+	&:focus{
+		color: $color;
+		background-color: scale-color($background, $lightness: -15%);
+	}
+}

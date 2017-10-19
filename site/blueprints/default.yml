@@ -1,0 +1,22 @@
+title: Page
+
+fields:
+	title:
+		label: Title
+		type:  text
+
+	text:
+		label: Text
+		type:  textarea
+
+	metatag:
+		label: Metatag
+		type: headline
+
+	meta_title:
+		label: Title
+		type: text
+
+	meta_description:
+		label: Description
+		type: textarea

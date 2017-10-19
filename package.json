@@ -1,0 +1,33 @@
+{
+  "name": "huleos.css",
+  "version": "1.0.0",
+  "main": "app.js",
+  "author": "Julio Cesar Montenegro <creativo@686studio.com>",
+  "license": "MIT",
+  "browserslist": [
+    "> 5%"
+  ],
+  "scripts": {
+    "dev": "NODE_ENV=development webpack --progress --hide-modules",
+    "watch": "NODE_ENV=development webpack --watch --progress --hide-modules",
+    "prod": "NODE_ENV=production webpack -p"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.1.2",
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-env": "^1.6.0",
+    "browser-sync": "^2.18.12",
+    "browser-sync-webpack-plugin": "^1.2.0",
+    "clean-webpack-plugin": "^0.1.16",
+    "copy-webpack-plugin": "^4.0.1",
+    "css-loader": "^0.28.4",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "imagemin-webpack-plugin": "^1.5.0-beta.0",
+    "node-sass": "^4.5.3",
+    "postcss-loader": "^2.0.6",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.2.0"
+  }
+}

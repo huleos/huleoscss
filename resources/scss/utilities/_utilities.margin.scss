@@ -1,0 +1,112 @@
+/*---------Spacing Utilities: Margin----------*/
+
+///* ========================================================================
+//   #MARGIN
+//   ======================================================================== */
+
+
+$margin-0: 0 !default;
+$margin-1: rem(15 * 1) !default;
+$margin-2: rem(15 * 2) !default;
+$margin-3: rem(15 * 3 ) !default;
+$margin-4: rem(15 * 4) !default;
+
+/* Spacing Level 0 */
+
+.u-m0  { margin: $margin-0; }
+.u-mt0 { margin-top: $margin-0; }
+.u-mr0 { margin-right: $margin-0; }
+.u-mb0 { margin-bottom: $margin-0; }
+.u-ml0 { margin-left: $margin-0; }
+
+.u-mx0 {
+  margin-right: $margin-0;
+  margin-left: $margin-0;
+}
+
+.u-my0 {
+  margin-top: $margin-0;
+  margin-bottom: $margin-0;
+}
+
+/* Spacing Level 1 */
+
+.u-m1  { margin: $margin-1; }
+.u-mt1 { margin-top: $margin-1; }
+.u-mr1 { margin-right: $margin-1; }
+.u-mb1 { margin-bottom: $margin-1; }
+.u-ml1 { margin-left: $margin-1; }
+
+.u-mx1 {
+  margin-right: $margin-1;
+  margin-left: $margin-1;
+}
+
+.u-my1 {
+  margin-top: $margin-1;
+  margin-bottom: $margin-1;
+}
+
+
+/* Spacing Level 2 */
+
+.u-m2  { margin: $margin-2; }
+.u-mt2 { margin-top: $margin-2; }
+.u-mr2 { margin-right: $margin-2; }
+.u-mb2 { margin-bottom: $margin-2; }
+.u-ml2 { margin-left: $margin-2; }
+
+.u-mx2 {
+  margin-right: $margin-2;
+  margin-left: $margin-2;
+}
+
+.u-my2 {
+  margin-top: $margin-2;
+  margin-bottom: $margin-2;
+}
+
+
+/* Spacing Level 3 */
+
+.u-m3  { margin: $margin-3; }
+.u-mt3 { margin-top: $margin-3; }
+.u-mr3 { margin-right: $margin-3; }
+.u-mb3 { margin-bottom: $margin-3; }
+.u-ml3 { margin-left: $margin-3; }
+
+.u-mx3 {
+  margin-right: $margin-3;
+  margin-left: $margin-3;
+}
+
+.u-my3 {
+  margin-top: $margin-3;
+  margin-bottom: $margin-3;
+}
+
+
+/* Spacing Level 4 */
+
+.u-m4  { margin: $margin-4; }
+.u-mt4 { margin-top: $margin-4; }
+.u-mr4 { margin-right: $margin-4; }
+.u-mb4 { margin-bottom: $margin-4; }
+.u-ml4 { margin-left: $margin-4; }
+
+.u-mx4 {
+  margin-right: $margin-4;
+  margin-left: $margin-4;
+}
+
+.u-my4 {
+  margin-top: $margin-4;
+  margin-bottom: $margin-4;
+}
+
+/* Spacing Auto */
+
+.u-mla { margin-left: auto; }
+.u-mra { margin-right: auto; }
+.u-mxa { margin-right: auto; margin-left: auto; }
+.u-mya { margin-top: auto; margin-bottom: auto; }

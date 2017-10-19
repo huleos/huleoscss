@@ -1,0 +1,22 @@
+Title: Grid
+
+----
+
+Text: 
+
+```html
+<div class="o-content">Content layout</div>
+<div class="o-sidebar">Sidebar layout</div>
+```
+
+----
+
+Metatag: 
+
+----
+
+Meta-title: 
+
+----
+
+Meta-description: 

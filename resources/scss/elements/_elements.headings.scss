@@ -1,0 +1,49 @@
+/* ==========================================================================
+   #HEADINGS
+   ========================================================================== */
+
+/**
+ * Simple default styles for headings 1 through 6. Anything more opinionated
+ * than simple font-size changes should likely be applied via classes (see:
+ * http://csswizardry.com/2016/02/managing-typography-on-large-apps/).
+ */
+
+// Variables
+$global-font-size: 1rem !default;
+$header-font-family: 'Times New Roman', Times, serif !default;
+$header-text-color: $black !default;
+
+
+@function headings($from:1, $to:6) {
+  @if $from == $to {
+    @return 'h#{$from}';
+  } @else {
+    @return 'h#{$from},' + headings($from+1, $to);
+  }
+}
+
+#{headings(1,6)} {
+  font-family: $header-font-family;
+  font-weight: normal;
+  line-height: 1.2;
+  margin-bottom: rem(12);
+  text-rendering: optimizeLegibility;
+  color: $header-text-color;
+  small{
+    line-height: 0;
+  }
+}
+
+$rem-ratio: $global-font-size / ($global-font-size * 0 + 1) * 16;
+$heading-scale-sm: 2;
+$heading-scale-md: 4;
+
+@for $i from 1 through 6 {
+  h#{$i} {
+    font-size: rem($rem-ratio + $heading-scale-sm * (6 - $i));
+    @include breakpoint(md){
+      font-size: rem($rem-ratio + $heading-scale-md * (6 - $i));
+    }
+  }
+}
+

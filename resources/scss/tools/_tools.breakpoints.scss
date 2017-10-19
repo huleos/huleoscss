@@ -1,0 +1,33 @@
+///* ========================================================================
+//   #BREAKPOINTS
+//   ======================================================================== */
+// 
+// .usage {
+//   padding-left: rem(15);
+//   padding-right: rem(15);
+// 	 @include breakpoint(md, max){
+// 			padding-right: rem(8);
+// 		}
+// }
+
+// Variables
+$breakpoints: (
+  sm: 0px,
+  md: 640px,
+  lg: 1024px,
+  xl: 1200px,
+) !default;
+
+
+@mixin breakpoint($width, $type: min) {
+  @if map-has-key($breakpoints, $width) {
+    $width: map-get($breakpoints, $width);
+    @if $type == max {
+      $width: $width - 1px;
+    }
+    @media print, screen and (#{$type}-width: $width) {
+      @content;
+    }
+  }
+}
+

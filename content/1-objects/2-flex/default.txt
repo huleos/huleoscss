@@ -1,0 +1,30 @@
+Title: Flex
+
+----
+
+Text: 
+
+```html
+<div class="o-flex">Display flex</div>
+<div class="o-flex--left">Aligned to the left</div>
+<div class="o-flex--right">Aligned to the right</div>
+<div class="o-flex--center">Aligned to the center</div>
+<div class="o-flex--justify">Aligned to the edges</div>
+<div class="o-flex--spaced">Aligned to the space around</div>
+<div class="o-flex--top">Align top</div>
+<div class="o-flex--bottom">Align bottom</div>
+<div class="o-flex--middle">Align middle</div>
+<div class="o-flex--stretch">Align stretch</div>
+```
+
+----
+
+Metatag: 
+
+----
+
+Meta-title: 
+
+----
+
+Meta-description: 

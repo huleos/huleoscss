@@ -1,0 +1,42 @@
+///* ========================================================================
+//   #BUTTONS
+//   ======================================================================== */
+
+$btn-primary-color: $white;
+$btn-primary-bg: map-get($brand-color, primary);
+$btn-radius: $global-radius;
+
+.c-button {
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	border: 1px solid transparent;
+	border-radius: $btn-radius;
+	font-size: rem(16);
+	line-height: 1;
+	padding: rem(12) rem(16);
+	transition: background-color 0.25s ease-out, color 0.25s ease-out;
+
+	&:focus{
+		outline: none;
+	}
+
+	&:hover,
+	&:focus{
+		text-decoration: none;
+	}
+
+	&:active,
+  &.active {
+    outline: 0;
+    background-image: none;
+  }
+	
+  &--primary {
+  	@include button-style($btn-primary-color, $btn-primary-bg);
+  }
+
+  &--small { font-size: 75%; }
+  &--large { font-size: 125%; }
+}

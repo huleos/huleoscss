@@ -1,0 +1,24 @@
+Title: Search
+
+----
+
+Text: 
+
+----
+
+Metatag: 
+
+----
+
+Meta-title: 
+
+----
+
+Meta-description: 
+
+----
+
+No-results: 
+
+No results found.
+Please try another search.
