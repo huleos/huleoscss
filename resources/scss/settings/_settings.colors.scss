@@ -15,3 +15,16 @@ $brand-color:(
 	warning: #ffae00,
 	alert:   #f1391c,
 ) !default;
+
+:root {
+	--gray-dark: $gray-dark;
+	--gray-medium: $gray-medium;
+	--gray-light: $gray-light;
+	--black: $black;
+	--white: $white;
+	--primary: map-get($brand-color, primary);
+	--secondary: map-get($brand-color, secondary);
+	--success: map-get($brand-color, success);
+	--warning: map-get($brand-color, warning);
+	--alert:   map-get($brand-color, alert);
+}

@@ -6,15 +6,17 @@ Text:
 
 An all-around flexible and composable component.
 
-<div class="c-card" style="width: 20rem;">
-	<h4 class="c-card__header">
-		Featured
-	</h4>
-  <img class="c-card__img" src="https://upload.wikimedia.org/wikipedia/en/5/59/TMNT1987_Shredder.png" alt="Card image cap">
-  <div class="c-card__content">
-    <h4>Card title</h4>
-    <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="c-button c-button--primary">Go somewhere</a>
+<div class="Docs">
+  <div class="c-card" style="width: 20rem;">
+  	<h4 class="c-card__header">
+  		Featured
+  	</h4>
+    <img class="c-card__img" src="https://upload.wikimedia.org/wikipedia/en/5/59/TMNT1987_Shredder.png" alt="Card image cap">
+    <div class="c-card__content">
+      <h4>Card title</h4>
+      <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="c-button c-button--primary">Go somewhere</a>
+    </div>
   </div>
 </div>
 
@@ -31,16 +33,17 @@ An all-around flexible and composable component.
   </div>
 </div>
 ```
-
-<div class="c-card">
-	<h4 class="c-card__header">
-		Featured
-	</h4>
-  <!-- <img class="c-card__img" src="https://upload.wikimedia.org/wikipedia/en/5/59/TMNT1987_Shredder.png" alt="Card image cap"> -->
-  <div class="c-card__content">
-    <h4>Card title</h4>
-    <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="c-button c-button--primary">Go somewhere</a>
+<div class="Docs">
+  <div class="c-card">
+  	<h4 class="c-card__header">
+  		Featured
+  	</h4>
+    <!-- <img class="c-card__img" src="https://upload.wikimedia.org/wikipedia/en/5/59/TMNT1987_Shredder.png" alt="Card image cap"> -->
+    <div class="c-card__content">
+      <h4>Card title</h4>
+      <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="c-button c-button--primary">Go somewhere</a>
+    </div>
   </div>
 </div>
 
@@ -57,11 +60,13 @@ An all-around flexible and composable component.
 </div>
 ```
 
-<div class="c-card">
-  <div class="c-card__content">
-    <h4>Card title</h4>
-    <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="c-button c-button--primary">Go somewhere</a>
+<div class="Docs">
+  <div class="c-card">
+    <div class="c-card__content">
+      <h4>Card title</h4>
+      <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="c-button c-button--primary">Go somewhere</a>
+    </div>
   </div>
 </div>
 

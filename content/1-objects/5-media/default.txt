@@ -4,13 +4,18 @@ Title: Media
 
 Text: 
 
-<div class="o-media">
-  <div class="o-media__figure">
-    <img src="http://lorempixel.com/200/200/" alt="">
-  </div>
-  <div class="o-media__body">
-    <h2>Media object</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo numquam aliquid facere deleniti excepturi, illum minus, quo expedita.</p>
+The Media Object pattern is: image thingy on the left, heading and text on the right.
+That's what Nicole Sullivan called it and the name stuck.
+
+<div class="Docs">
+  <div class="o-media">
+    <div class="o-media__figure">
+      <img src="http://lorempixel.com/200/200/" alt="">
+    </div>
+    <div class="o-media__body">
+      <h2>Media object</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo numquam aliquid facere deleniti excepturi, illum minus, quo expedita.</p>
+    </div>
   </div>
 </div>
 

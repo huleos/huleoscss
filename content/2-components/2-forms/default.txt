@@ -6,28 +6,30 @@ Text:
 
 All generic form controls, designed for consistency.
 
-<form>
-  <label>Text field</label>
-  <input type="text" class="c-form-input" placeholder="Text">
+<div class="Docs">
+  <form>
+    <label>Text field</label>
+    <input type="text" class="c-form-input" placeholder="Text">
 
-  <label>Select field</label>
-  <select class="c-form-input">
-    <option>Value 1</option>
-    <option>Value 2</option>
-    <option>Value 3</option>
-    <option>Value 4</option>
-    <option>Value 5</option>
-  </select>
+    <label>Select field</label>
+    <select class="c-form-input">
+      <option>Value 1</option>
+      <option>Value 2</option>
+      <option>Value 3</option>
+      <option>Value 4</option>
+      <option>Value 5</option>
+    </select>
 
-  <label>File input field</label>
-  <input type="file" class="c-form-input__file">
+    <label>File input field</label>
+    <input type="file" class="c-form-input__file">
 
-  <label>Textarea field</label>
-  <textarea class="c-form-input" rows="3" placeholder="Textarea"></textarea>
+    <label>Textarea field</label>
+    <textarea class="c-form-input" rows="3" placeholder="Textarea"></textarea>
 
-  <button class="c-button c-button--primary">Submit</button>
+    <button class="c-button c-button--primary">Submit</button>
 
-</form>
+  </form>
+</div>
 
 ```html
 <form>

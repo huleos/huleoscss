@@ -4,9 +4,24 @@ Title: Grid
 
 Text: 
 
+A simple structure for any website, based on two responsive columns.
+
+<div class="Docs">
+	<div class="o-container">
+		<div class="o-flex">
+			<div class="o-content">Content layout</div>
+			<div class="o-sidebar">Sidebar layout</div>
+		</div>
+	</div>
+</div>
+
 ```html
-<div class="o-content">Content layout</div>
-<div class="o-sidebar">Sidebar layout</div>
+<div class="o-container">
+	<div class="o-flex">
+		<div class="o-content">Content layout</div>
+		<div class="o-sidebar">Sidebar layout</div>
+	</div>
+</div>
 ```
 
 ----

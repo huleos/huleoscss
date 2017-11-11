@@ -4,6 +4,8 @@ Title: Flex
 
 Text: 
 
+Flex containers and items are able to be modified further with additional flex properties.
+
 ```html
 <div class="o-flex">Display flex</div>
 <div class="o-flex--left">Aligned to the left</div>

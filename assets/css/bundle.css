@@ -1,3 +1,15 @@
+:root {
+  --gray-dark: #8a8a8a;
+  --gray-medium: #cacaca;
+  --gray-light: #e6e6e6;
+  --black: #0a0a0a;
+  --white: #fefefe;
+  --primary: #428bca;
+  --secondary: #767676;
+  --success: #5cb85c;
+  --warning: #ffae00;
+  --alert: #f1391c; }
+
 /* ==========================================================================
    #BOX-SIZING
    ========================================================================== */
@@ -703,7 +715,9 @@ table {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-          flex-flow: row wrap; }
+          flex-flow: row wrap;
+  margin-right: -0.9375rem;
+  margin-left: -0.9375rem; }
 
 .o-flex--left {
   -webkit-box-pack: start;

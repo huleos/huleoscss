@@ -4,8 +4,12 @@ Title: Embed
 
 Text: 
 
-<div class="o-embed o-embed--16x9">
-  <iframe class="o-embed__item" src="https://www.youtube.com/embed/5fOqdNnX4nQ" allowfullscreen></iframe> 
+Create responsive video or slideshow based on the width of the parent by creating an intrinsic ratio that scales on any device.
+
+<div class="Docs">
+	<div class="o-embed o-embed--16x9">
+	  <iframe class="o-embed__item" src="https://www.youtube.com/embed/5fOqdNnX4nQ" allowfullscreen></iframe> 
+	</div>
 </div>
 
 ```html
@@ -14,6 +18,8 @@ Text:
 </div>
 ```
 #### Aspect ratios
+Aspect ratios can be customized with modifier classes.
+
 ```html
 <!-- 1:1 aspect ratio -->
 <div class="o-embed o-embed--square">
