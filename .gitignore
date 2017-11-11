@@ -1,14 +1,12 @@
-# System files
-# ------------
-
 Icon
 .DS_Store
 node_modules
 npm-debug.log
 yarn-error.log
-
-# Temporary files
-# ---------------
+fabfile.py
+*.pyc
+*.map
+content/
 
 /thumbs/*
 !/thumbs/index.html
@@ -16,18 +14,10 @@ yarn-error.log
 /site/cache/*
 !/site/cache/index.html
 
-# -------------SECURITY-------------
-# NEVER publish these files via Git!
-# -------------SECURITY-------------
-
-# Kirby accounts
-# ---------------
 
 /site/accounts/*
 !/site/accounts/index.html
 
-# Avatars
-# ---------------
 
 /assets/avatars/*
 !/assets/avatars/index.html
