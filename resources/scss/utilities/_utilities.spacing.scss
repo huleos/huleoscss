@@ -1,0 +1,58 @@
+/*---------Spacing Utilities----------*/
+
+///* ========================================================================
+//   #MARGIN AND PADDING
+//   ======================================================================== */
+
+
+$spacer: 0.9375rem !default;
+$spacers: (
+  0: 0,
+  1: ($spacer * 1),
+  2: ($spacer * 2),
+  3: ($spacer * 3),
+  4: ($spacer * 4),
+  //5: ($spacer * 5)
+) !default;
+
+@each $prop, $abbrev in (margin: m, padding: p) {
+  @each $size, $length in $spacers {
+
+    .u-#{$abbrev}#{$size} { #{$prop}: $length !important; }
+    .u-#{$abbrev}t#{$size},
+    .u-#{$abbrev}y#{$size} {
+      #{$prop}-top: $length !important;
+    }
+    .u-#{$abbrev}r#{$size},
+    .u-#{$abbrev}x#{$size} {
+      #{$prop}-right: $length !important;
+    }
+    .u-#{$abbrev}b#{$size},
+    .u-#{$abbrev}y#{$size} {
+      #{$prop}-bottom: $length !important;
+    }
+    .u-#{$abbrev}l#{$size},
+    .u-#{$abbrev}x#{$size} {
+      #{$prop}-left: $length !important;
+    }
+  }
+}
+
+/* Spacing Auto */
+.u-ma { margin: auto !important; }
+.u-mta,
+.u-mya {
+  margin-top: auto !important;
+}
+.u-mra,
+.u-mxa {
+  margin-right: auto !important;
+}
+.u-mba,
+.u-mya {
+  margin-bottom: auto !important;
+}
+.u-mla,
+.u-mxa {
+  margin-left: auto !important;
+}
