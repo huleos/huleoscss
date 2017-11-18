@@ -7,6 +7,6 @@
 		</div>
 	</footer>
 	<?= js('assets/js/bundle.js') ?>
-	<?= js('assets/js/prism.js') ?>
+	<?= js('assets/js/prism.js', ['data-manual' => false]) ?>
 </body>
 </html>

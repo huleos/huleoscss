@@ -1,0 +1,15 @@
+/kirby
+/assets
+/panel
+/resources/scss/vendor
+/thumbs
+prism.js
+/site
+/content
+fabfile.py
+.gitmodules
+.htaccess
+index.php
+robots.txt
+yarn.lock
+webpack.config.js
