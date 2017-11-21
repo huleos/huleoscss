@@ -1170,4 +1170,22 @@ select.c-form-input:not([size]):not([multiple]) {
 .u-mxa {
   margin-left: auto !important; }
 
+.u-text--left {
+  text-align: left !important; }
+
+.u-text--right {
+  text-align: right !important; }
+
+.u-text--center {
+  text-align: center !important; }
+
+.u-text--lowercase {
+  text-transform: lowercase !important; }
+
+.u-text--uppercase {
+  text-transform: uppercase !important; }
+
+.u-text--capitalize {
+  text-transform: capitalize !important; }
+
 /*# sourceMappingURL=bundle.css.map*/
