@@ -879,6 +879,19 @@ table {
 select.c-form-input:not([size]):not([multiple]) {
   height: 2.5rem; }
 
+.c-form-inline {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center; }
+  .c-form-inline .c-form-input {
+    margin-bottom: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0; }
+  .c-form-inline .c-button {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0; }
+
 .c-card {
   position: relative;
   display: -webkit-box;

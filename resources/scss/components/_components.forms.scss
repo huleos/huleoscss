@@ -29,3 +29,19 @@ select.c-form-input {
     height: rem(38 + 2);
   }
 }
+
+.c-form-inline {
+	display: flex;
+	align-items: center;
+
+	.c-form-input {
+		margin-bottom: 0;
+		border-top-right-radius: 0;
+		border-bottom-right-radius: 0;
+	}
+
+	.c-button {
+		border-top-left-radius: 0;
+		border-bottom-left-radius: 0;
+	}
+}
