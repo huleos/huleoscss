@@ -2,9 +2,9 @@
 //   #BUTTONS
 //   ======================================================================== */
 
-$btn-primary-color: $white;
-$btn-primary-bg: map-get($brand-color, primary);
-$btn-radius: $global-radius;
+$btn-primary-color: $white !default;
+$btn-primary-bg: map-get($brand-color, primary) !default;
+$btn-radius: $global-radius !default;
 
 .c-button {
 	display: inline-block;

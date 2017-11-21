@@ -2,7 +2,7 @@
 //   #CARD
 //   ======================================================================== */
 
-$card-radius: calc(#{$global-radius} - 1px);
+$card-radius: calc(#{$global-radius} - 1px) !default;
 
 .c-card {
 	position: relative;
