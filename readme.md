@@ -11,7 +11,7 @@ These are some options available to start:
 
 Use your main sass file to import huleos.css
 ```
-@import "~huleos.css/resources/scss/style";
+@import "~huleos.css/scss/style";
 ```
 
 ## Copyright
