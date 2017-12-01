@@ -92,6 +92,10 @@ module.exports = {
 			filename: '../css/[name].css',
 			allChunks: true
 		}),
+		new ExtractTextPlugin({
+			filename: '../../css/huleos.css',
+			allChunks: true
+		}),
 		new CopyWebpackPlugin([
 			{
 				from: './resources/images',
