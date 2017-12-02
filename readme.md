@@ -1,7 +1,5 @@
 # huleos.css 
 
-[![npm version](https://img.shields.io/travis/npm/v/huleos.svg)](https://www.npmjs.com/package/huleos.css)
-
 ## Quick start
 
 These are some options available to start:
