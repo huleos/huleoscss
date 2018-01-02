@@ -1,11 +1,11 @@
-<aside class="o-sidebar u-px1 u-py2" role="sidebar">
+<aside class="o-sidebar u-py2" role="sidebar">
 
 	<h1 class="Brand u-mb0">
 		<a href="<?= url() ?>">
 			<?= $site->title() ?>
 		</a>
 	</h1>
-	<small>Version 0.0.6</small>
+	<small>Version 0.0.9</small>
 
 	<form action="<?= $site->find('search')->url() ?>" class="u-mt1 u-mb1">
 	  <input type="text" placeholder="Search for..." name="q" class="c-form-input">

@@ -1,7 +1,7 @@
 <?php snippet('header') ?>
 
 <main class="o-container--full" role="main">
-	<div class="o-flex">
+	<div class="o-row o-flex">
 
 	<?php snippet('sidebar') ?>
 	

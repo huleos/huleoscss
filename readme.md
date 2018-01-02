@@ -23,4 +23,4 @@ Use your main sass file to import huleos.css
 
 ## Copyright
 
-© 2017 Julio César Montenegro <http://huleos.com>
+© 2018 Julio César Montenegro <http://huleos.com>

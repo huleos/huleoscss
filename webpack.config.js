@@ -66,7 +66,7 @@ module.exports = {
 	plugins: [
 		new BrowserSyncPlugin(
 			{
-				proxy: 'huleoscss.dev',
+				proxy: 'huleoscss.test',
 				open: true,
 				notify: false,
 				online: false,

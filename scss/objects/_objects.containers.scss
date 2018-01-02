@@ -21,6 +21,7 @@
   &--full {
     position: relative;
     width: 100%;
+    @include margin-auto;
     @include gutter(15);
   }
   &--md {
