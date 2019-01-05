@@ -14,3 +14,10 @@
 .u-text--lowercase { text-transform: lowercase !important; }
 .u-text--uppercase { text-transform: uppercase !important; }
 .u-text--capitalize { text-transform: capitalize !important; }
+
+// Weight and italics
+
+.u-font-light { font-weight: 300 !important; }
+.u-font-normal { font-weight: 400 !important; }
+.u-font-bold { font-weight: 700 !important; }
+.u-font-italic { font-style: italic !important; }

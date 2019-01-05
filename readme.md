@@ -1,26 +1,25 @@
 # huleos.css 
 
-## Quick start
+## Quick Start
 
 These are some options available to start:
 
-- Install with [npm](https://www.npmjs.com/): `npm install huleos.css`
-- Install with [yarn](https://yarnpkg.com/): `yarn add huleos.css`
+Install with npm: `npm install huleos.css`  
+Install with yarn: `yarn add huleos.css`
 
-## CSS
 
+### CSS
 Copy-paste the stylesheet `<link>` into your `<head>` and you're set. 👌
-```markup
-<link rel="stylesheet" href="https://unpkg.com/huleos.css/css/huleos.css">
+```html
+<link rel="stylesheet" href="//unpkg.com/huleos.css/dist/huleos.css">
 ```
 
-## Importing Styles
-
+### Importing Styles
 Use your main sass file to import huleos.css
-```
+```scss
 @import "~huleos.css/scss/style";
 ```
 
 ## Copyright
 
-© 2018 Julio César Montenegro <http://huleos.com>
+© 2019 Julio César Montenegro <https://huleos.com>

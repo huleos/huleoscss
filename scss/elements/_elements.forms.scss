@@ -1,6 +1,6 @@
-///* ========================================================================
-//   #FORMS
-//   ======================================================================== */
+/* ==========================================================================
+   #FORMS
+   ========================================================================== */
 
 $input-font-family: $body-font-family !default;
 
@@ -27,12 +27,20 @@ textarea {
   font-family: $input-font-family;
 }
 
-input[type='search'],
-input[type=text],
-input[type=url],
-input[type=email],
-input[type=password],
-input[type=number],
+input[type='text'], 
+input[type='password'], 
+input[type='date'], 
+input[type='datetime'], 
+input[type='datetime-local'], 
+input[type='month'], 
+input[type='week'], 
+input[type='email'], 
+input[type='number'], 
+input[type='search'], 
+input[type='tel'], 
+input[type='time'], 
+input[type='url'], 
+input[type='color'], 
 textarea {
   display: block;
   width: 100%;
@@ -50,9 +58,9 @@ input[type="file"] {
 }
 
 button,
-input[type=button],
-input[type=reset],
-input[type=submit]{
+[type=button],
+[type=reset],
+[type=submit]{
   border: none;
   appearance: none;
   outline: none;

@@ -12,6 +12,7 @@
 $global-font-size: 1rem !default;
 $header-font-family: 'Times New Roman', Times, serif !default;
 $header-text-color: $black !default;
+$header-font-weight: normal !default;
 
 
 @function headings($from:1, $to:6) {
@@ -24,7 +25,7 @@ $header-text-color: $black !default;
 
 #{headings(1,6)} {
   font-family: $header-font-family;
-  font-weight: normal;
+  font-weight: $header-font-weight;
   line-height: 1.2;
   margin-bottom: rem(12);
   text-rendering: optimizeLegibility;
