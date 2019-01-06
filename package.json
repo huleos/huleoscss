@@ -5,8 +5,8 @@
   "author": "Julio Cesar Montenegro <creativo@686studio.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "parcel ./scss/style.scss -o huleos.css",
-    "build": "parcel build ./scss/style.scss -o huleos.css",
+    "dev": "parcel ./scss/huleos.scss",
+    "build": "parcel build ./scss/huleos.scss",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   },
