@@ -15,5 +15,5 @@ Copy-paste the stylesheet `<link>` into your `<head>` and you're set. 👌
 ### Importing Styles
 Use your main sass file to import huleos.css
 ```scss
-@import "~huleos.css/scss/style";
+@import "~huleos.css/scss/huleos";
 ```
