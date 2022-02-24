@@ -7,34 +7,40 @@ $btn-primary-bg: map-get($brand-color, primary) !default;
 $btn-radius: $global-radius !default;
 
 .c-button {
-	display: inline-block;
-	text-align: center;
-	vertical-align: middle;
-	cursor: pointer;
-	border: 1px solid transparent;
-	border-radius: $btn-radius;
-	font-size: rem(16);
-	line-height: 1;
-	padding: rem(12) rem(16);
-	transition: background-color 0.25s ease-out, color 0.25s ease-out;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: $btn-radius;
+  font-size: rem(16);
+  line-height: 1;
+  padding: rem(12) rem(16);
+  transition: background-color 0.25s ease-out, color 0.25s ease-out;
 
-	&:focus{
-		outline: none;
-	}
+  &:focus{
+    outline: none;
+  }
 
-	&:hover,
-	&:focus{
-		text-decoration: none;
-	}
+  &:hover,
+  &:focus{
+    text-decoration: none;
+  }
 
-	&:active,
+  &:active,
   &.active {
     outline: 0;
     background-image: none;
   }
-	
+  
+  &[disabled], 
+  &.disabled {
+    opacity: 0.25;
+    cursor: not-allowed;
+  }
+  
   &--primary {
-  	@include button-style($btn-primary-color, $btn-primary-bg);
+    @include button-style($btn-primary-color, $btn-primary-bg);
   }
 
   &--small { font-size: 75%; }
